@@ -1,0 +1,2414 @@
+{
+    "Naam": "Medicatie",
+    "Onderverdeling": [
+        {
+            "Naam": "Pijnmedicatie",
+            "Effect": ["Analgesie", "Antipyrexie"],
+            "Onderverdeling": [
+                {
+                    "Naam": "Paracetamol",
+                    "Indicaties-list": ["Eerste stap bij nociceptieve pijn"],
+                    "Zwangerschap": ["Meest veilig"],
+                    "Werkingsduur": "Uren",
+                    "Enzym": ["CYP2E1", "Substraat", "Toxisch"],
+                    "Bijwerkingen": [
+                        {
+                            "Bijwerking": "Leverbeschadiging",
+                            "Risicofactoren": ["Slechte voedingstoestand"],
+                            "Dosis": [">", "150", "mg/kg/dag"],
+                            "Mechanisme": ["Verlaagde glutathion-spiegel", "Stapeling NAPQI"]
+                        }
+                    ],
+                    "Interacties": [
+                        {
+                            "Interactant": ["Alcohol"],
+                            "Risico": "Leverbeschadiging",
+                            "Mechanisme": ["CYP2E1-inductie", "Verhoogde omzetting naar NAPQI", "Stapeling NAPQI"]
+                        }
+                    ]
+                },
+                {
+                    "Naam": "NSAID's",
+                    "Klaring": "Renaal",
+                    "Effect": ["Analgesie", "Antipyrexie", "Anti-inflammatie"],
+                    "Indicaties-list": ["Tweede stap (additie) bij nociceptieve pijn"],
+                    "Mechanisme": [["COX-1 remming", "Inhibitie van trombocytenaggergatie, gastroprotectie en renale perfusie"], ["COX-2 inhibitie", "Inhibitie van renale perfusie, inflammatie, ovulatie, sluiting ductus Botalli en pyrexie"]],
+                    "Bijwerkingen": [
+                        {
+                            "Bijwerking": "Ulcus pepticum",
+                            "Risicofactoren": ["Ulcus is de voorgeschiedenis", "Reumatoïde artritis", "Hartfalen", "Diabetes Mellitus"],
+                            "Mechanisme": [["Verhoogde maagzuur excretie", "Verlaagde bicarbonaat excretie", "Verlaagde slijmproductie", "Verlaagde groei maagzuur epitheel"]]
+                        },
+                        {
+                            "Bijwerking": "Nierfalen",
+                            "Risicofactoren": ["Hartfalen", "Dehydratie", "Sepsis", "Pre-existent nierfalen"],
+                            "Mechanisme": ["Vasoconstrictie van de afferente nierarteriole", "Verlaagde nierperfusie"]
+                        },
+                        {
+                            "Bijwerking": "Hemorragie",
+                            "Mechanisme": ["Verlaagde tromboxaan A2-vorming in de trombocyt", ["Verlaagde reactieve vasoconstrictie", "Verlaagde trombocytenaggregatie"]]
+                        },
+                        {
+                            "Bijwerking": "Hartfalen",
+                            "Mechanisme": ["Vasoconstrictie van de afferente nierarteriole", ["Hyperkaliëmie", "Vochtretentie"]]
+                        },
+                        {
+                            "Bijwerking": "Hypertensie",
+                            "Mechanisme": ["Vasoconstrictie van de afferente nierarteriole", ["Hyperkaliëmie", "Vochtretentie"]]
+                        },
+                        {
+                            "Bijwerking": "Weeënremming"
+                        },
+                        {
+                            "Bijwerking": "Sluiting ductus arteriosus"
+                        },
+                        {
+                            "Bijwerking": "Gastro-intestinale bijwerkingen"
+                        },
+                        {
+                            "Bijwerking": "Vochtretentie"
+                        },
+                        {
+                            "Bijwerking": "Zoutretentie"
+                        },
+                        {
+                            "Bijwerking": "Hyperkaliëmie"
+                        }
+                    ],
+                    "Interacties": [
+                        {
+                            "Interactant": ["TAR's", "SSRI's"],
+                            "Risico": "Hemorragie",
+                            "Mechanisme": ["Verlaagde werking trombocyten"]
+                        },
+                        {
+                            "Interactant": ["Coumarinederivaten"],
+                            "Risico": "Hemorragie",
+                            "Mechanisme": ["Verminderde vitamine K-afhankelijke stolling"]
+                        },
+                        {
+                            "Interactant": ["Corticosteroïden"],
+                            "Risico": "GI-bloedingen",
+                            "Mechanisme": "Cummulatieve ulcerogene werking"
+                        },
+                        {
+                            "Interactant": ["RAS-remmers"],
+                            "Risico": "Hart- en nierfalen",
+                            "Mechanisme": "Hyperkaliëmie bij verminderde nierfunctie"
+                        },
+                        {
+                            "Interactant": ["Diuretica"],
+                            "Risico": "Hart- en nierfalen",
+                            "Mechanisme": "Verlaagde nierdoorbloeding bij een lager circulerend volume"
+                        },
+                        {
+                            "Interactant": ["Antihypertensiva"],
+                            "Risico": "Hypertensie",
+                            "Mechanisme": "Hyperkaliëmie bij NSAID-gebruik"
+                        }
+                    ],
+                    "Onderverdeling": [
+                        {
+                            "Naam": "Diclofenac",
+                            "Werkingsduur": "Uren",
+                            "Zwangerschap": ["Waarschijnlijk veilig"]
+                        },
+                        {
+                            "Naam": "Naproxen",
+                            "Werkingsduur": "Etmaal"
+                        },
+                        {
+                            "Naam": "Ibuprofen",
+                            "Werkingsduur": "Uren",
+                            "Zwangerschap": ["Waarschijnlijk veilig", "1e en 2e trimester"]
+                        },
+                        {
+                            "Naam": "Acetylsalicylzuur",
+                            "Werkingsduur": "Minuten",
+                            "Zwangerschap": ["Meest veilig"],
+                            "Bijwerkingen": [
+                                {
+                                    "Bijwerking": "Hyperurikemie"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Naam": "Opiaatagonisten",
+                    "Effect": ["Analgesie"],
+                    "Bijwerkingen": [
+                        {
+                            "Bijwerking": "Afhankelijkheid",
+                            "Risicofactoren": ["Middelenmisbruik in de voorgeschiedenis", "Gebruik van snelwerkende opiaten"],
+                            "Mechanisme": ["Mu-receptor bezetting"]
+                        },
+                        {
+                            "Bijwerking": "Obstipatie"
+                        },
+                        {
+                            "Bijwerking": "Ademdepressie",
+                            "Risicofactoren": ["COPD"],
+                            "Mechanisme": ["Mu-receptor bezetting"]
+                        },
+                        {
+                            "Bijwerking": "Euforie",
+                            "Mechanisme": ["Mu-receptor bezetting"]
+                        },
+                        {
+                            "Bijwerking": "Sedatie",
+                            "Mechanisme": ["Kappa-receptor bezetting"]
+                        },
+                        {
+                            "Bijwerking": "Miosis",
+                            "Mechanisme": ["Kappa-receptor bezetting"]
+                        },
+                        {
+                            "Bijwerking": "Dysforie",
+                            "Mechanisme": ["Kappa-receptor bezetting"]
+                        },
+                        {
+                            "Bijwerking": "Obstipatie",
+                            "Risicofactoren": ["Immobiliteit", "Slechte intake van water en voedsel"],
+                            "Mechanisme": ["Mu-receptor bezetting", ["Toename tonus gladde spieren", "Verlaagde motiliteit"]]
+                        },
+                        {
+                            "Bijwerking": "Jeuk"
+                        },
+                        {
+                            "Bijwerking": "Droge mond"
+                        }
+                    ],
+                    "Interacties": [
+                        {
+                            "Interactant": ["Anticholinergica", "TCA's"],
+                            "Risico": "Obstipatie",
+                            "Mechanisme": ["Parasympathicolytisch effect", "Cummulatief effect"]
+                        },
+                        {
+                            "Interactant": ["Benzodiazepines"],
+                            "Risico": "Ademdepressie"
+                        }
+                    ],
+                    "Onderverdeling": [
+                        {
+                            "Naam": "Sterkwerkend opioïd",
+                            "Indicaties-list": ["Vierde stap (additie) bij nociceptieve pijn"],
+                            "Onderverdeling": [
+                                {
+                                    "Naam": "Morfine",
+                                    "Werkingsduur": "Uren",
+                                    "Effect": ["Analgesie", "Anxiolyse"],
+                                    "Klaring": "Renaal",
+                                    "Rijveiligheid": "Categorie 3",
+                                    "Mechanisme": ["Semiselectieve Mu-opioïdreceptor agonist (tevens kappa en delta)"]
+                                },
+                                {
+                                    "Naam": "Fentanyl",
+                                    "Rijveiligheid": "Categorie 3",
+                                    "Mechanisme": ["Selectieve Mu-opioïdreceptor agonist"]
+                                },
+                                {
+                                    "Naam": "Oxycodon",
+                                    "Werkingsduur": "Uren",
+                                    "Rijveiligheid": "Categorie 2",
+                                    "Mechanisme": ["Aselectieve Mu-, Kappa- en Delta-opioïdreceptor agonist"]
+                                }
+                            ]
+                        },
+                        {
+                            "Naam": "Zwakwerkend opioïd",
+                            "Onderverdeling": [
+                                {
+                                    "Naam": "Tramadol",
+                                    "Werkingsduur": "Uren",
+                                    "Rijveiligheid": "Categorie 3",
+                                    "Indicaties-list": ["Derde stap (additie) bij nociceptieve pijn"],
+                                    "Klaring": "Renaal",
+                                    "Mechanisme": ["Aselectieve Mu-, Kappa- en Delta-opioïdreceptor agonist; tevens reuptakeremmer van NE en serotonine"],
+                                    "Bijwerkingen": [
+                                        {
+                                            "Bijwerking": "Duizeligheid"
+                                        },
+                                        {
+                                            "Bijwerking": "Misselijkheid"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Naam": "Codeïne",
+                                    "Werkingsduur": "Uren",
+                                    "Rijveiligheid": "Categorie 2",
+                                    "Klaring": "Renaal",
+                                    "Enzym": ["CYP2D6", "Substraat"],
+                                    "Mechanisme": ["Weak selective mu-opioïdreceptor antagonist; en pro-drug van morfine"]
+                                }
+                            ]
+                        }
+                    ]
+                }                
+            ]
+        },
+        {
+            "Naam": "Laxantia",
+            "Onderverdeling": [
+                {
+                    "Naam": "Osmotische laxantia",
+                    "Effect": ["Verbetering stoelgang", "Vermindering obstipatie"],
+                    "Bijwerkingen": [
+                        {
+                            "Bijwerking": "Buikkramp"
+                        },
+                        {
+                            "Bijwerking": "Misselijkheid"
+                        },
+                        {
+                            "Bijwerking": "Flatulentie"
+                        }
+                    ],
+                    "Mechanisme": ["Resorberen slecht", "Houden veel water in de darm", "Verzacht de feces", ["Vergroot het volume", "Versterkt de darmperisaltiek", "Stimuleert de stoelgang"]],
+                    "Indicaties": [
+                        {
+                            "Indicatie": "Obstipatie bij opioïdgebruik",
+                            "Keuze": 1
+                        }
+                    ],                    
+                    "Onderverdeling": [
+                        {
+                            "Naam": "Lactulose"
+                        },
+                        {
+                            "Naam": "Macrogol",
+                            "Indicaties": [
+                                {
+                                    "Indicatie": "Obstipatie bij opioïdgebruik",
+                                    "Keuze": 1,
+                                    "Condities": ["Volwassenen, kinderen >= 1"]
+                                }
+                            ]
+                        },
+                        {
+                            "Naam": "Magnesiumhydroxide"
+                        }
+                    ]
+                },
+                {
+                    "Naam": "Contactlaxantia",
+                    "Effect": ["Verbetering stoelgang", "Vermindering obstipatie"],
+                    "Bijwerkingen": [
+                        {
+                            "Bijwerking": "Buikkramp"
+                        },
+                        {
+                            "Bijwerking": "Misselijkheid"
+                        },
+                        {
+                            "Bijwerking": "Flatulentie"
+                        },
+                        {
+                            "Bijwerking": "Diarree"
+                        }
+                    ],
+                    "Mechanisme": ["Chemische prikkeling van de darmwand", "Verminderde intestinale water- en zoutresorptie", "Verzacht de feces", ["Vergroot het volume", "Versterkt de darmperisaltiek", "Stimuleert de stoelgang"]],
+                    "Indicaties": [
+                        {
+                            "Indicatie": "Obstipatie bij opioïdgebruik",
+                            "Keuze": 2
+                        }
+                    ],
+                    "Onderverdeling": [
+                        {
+                            "Naam": "Bisacodyl"
+                        }
+                    ]
+                },
+                {
+                    "Naam": "Klysmata",
+                    "Effect": ["Verbetering stoelgang", "Vermindering obstipatie"],
+                    "Indicaties": [
+                        {
+                            "Indicatie": "Obstipatie bij opioïdgebruik",
+                            "Keuze": 3
+                        },
+                        {
+                            "Indicatie": "Obstipatie met fecale impactie",
+                            "Keuze": 1
+                        }
+                    ],
+                    "Onderverdeling": [
+                        {
+                            "Naam": "Natriumlaurylsulfoacetaat",
+                            "Alternatieve naam": "Microklysma"
+                        },
+                        {
+                            "Naam": "Natriumfosfaat"
+                        },
+                        {
+                            "Naam": "Natriumducosaat/glycerol"
+                        },
+                        {
+                            "Naam": "Natriumducosaat/sorbitol"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Naam": "Antistolling",
+            "Onderverdeling": [
+                {
+                    "Naam": "Arteriële antistolling",
+                    "Onderverdeling": [
+                        {
+                            "Naam": "TAR's",
+                            "Effect": ["Trombocytenaggregatieremming"],
+                            "Interacties": [
+                                {
+                                    "Interactant": ["Corticosteroïden", "NSAID's", "SSRI's"],
+                                    "Risico": "Bloeding"
+                                }
+                            ],
+                            "Onderverdeling": [
+                                {
+                                    "Naam": "Irreversibele TAR's",
+                                    "Onderverdeling": [
+                                        {
+                                            "Naam": "Acetylsalicylzuur",
+                                            "Werkingsduur": "Dagen",
+                                            "Mechanisme": ["Inhibeert irreversibel de vorming van tromboxaan A2", "Inhibeert vasoconstrictie en trombocytenaggregatie"],
+                                            "Indicaties-list": ["Primaire preventie bij arterieel vaatlijden", "Secundaire preventie bij arterieel vaatlijden", "2e keus na TIA/CVA"]
+                                        },
+                                        {
+                                            "Naam": "Clopidogrel",
+                                            "Werkingsduur": "Uren",
+                                            "Bijwerkingen": [
+                                                {
+                                                    "Bijwerking": "Hemorragie"
+                                                },
+                                                {
+                                                    "Bijwerking": "Gastro-intestinale bijwerkingen"
+                                                },
+                                                {
+                                                    "Bijwerking": "Ulcus pepticum"
+                                                },
+                                                {
+                                                    "Bijwerking": "Gynaecomastie"
+                                                },
+                                                {
+                                                    "Bijwerking": "Bloedbeeldafwijkingen"
+                                                }
+                                            ],
+                                            "Mechanisme": ["Blokkeert irreversibel de ADP-receptor van de trombocyt", "Inhibeert de activeering van een stollingscomplex"],
+                                            "Indicaties-list": ["Profylaxe na stentplaatsing", "Acuut coronair syndroom", "Perifeer vaatlijden", "1e keus na TIA/CVA"]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Naam": "Reversibele TAR's",
+                                    "Onderverdeling": [
+                                        {
+                                            "Naam": "Ticagrelor",
+                                            "Werkingsduur": "Uren",
+                                            "Mechanisme": ["Blokkeert reversibel de P2Y12 receptor", "Inhibitie van plaatjesactivatie en aggregatie"],
+                                            "Indicaties-list": ["Additie bij acuut coronair syndroom"],
+                                            "Bijwerkingen": [
+                                                {
+                                                    "Bijwerking": "Hemorragie"
+                                                },
+                                                {
+                                                    "Bijwerking": "Hyperurikemie"
+                                                },
+                                                {
+                                                    "Bijwerking": "Dyspneu"
+                                                },
+                                                {
+                                                    "Bijwerking": "Gastro-intestinale bijwerkingen"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Naam": "Dipyridiamol",  
+                                            "Werkingsduur": "Uren",                                          
+                                            "Effect": ["Trombocytenaggregatieremming", "Vasodilatatie"],
+                                            "Indicaties-list": ["Additie TIA/CVA"],
+                                            "Bijwerkingen": [
+                                                {
+                                                    "Bijwerking": "Hoofdpijn"
+                                                },
+                                                {
+                                                    "Bijwerking": "Duizeligheid"
+                                                },
+                                                {
+                                                    "Bijwerking": "Gastro-intestinale bijwerkingen"
+                                                },
+                                                {
+                                                    "Bijwerking": "Spierpijn"
+                                                }
+                                            ]                                            
+                                        }
+                                    ]
+                                }                                
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Naam": "Veneuze antistolling",
+                    "Onderverdeling": [
+                        {
+                            "Naam": "Coumarinederivaten",
+                            "Effect": ["Remming aanmaak factor II, VII, IX en X"],
+                            "Mechanisme": ["Antagoneren vitamine K", "Afname concentratie vitamine K-afhankelijke stollingsfactoren (i.e. II, VII, IX, X en proteïne C)", "Afname van fibrinevorming"],
+                            "Enzym": ["CYP2C9", "Substraat"],
+                            "Indicaties-list": ["Atriumfibrilleren", "Mechanische klepprothese", "Longembolie", "DVT", "TIA/CVA profylaxe bij CHADVASC >1"],
+                            "Bijwerkingen": [
+                                {
+                                    "Bijwerking": "Hemorragie",
+                                    "Risicofactoren": ["Therapieontrouw", "Alcohol", "Koorts"],
+                                    "Dosis": [">", "150", "mg/kg/dag"]
+                                },
+                                {
+                                    "Bijwerking": "Hemorragische huidnecrose"
+                                },
+                                {
+                                    "Bijwerking": "Calciphylaxis"
+                                }
+                            ],
+                            "Interacties": [
+                                {
+                                    "Interactant": ["NSAID's", "Corticosteroïden"],
+                                    "Risico": "GI-bloedingen"
+                                },
+                                {
+                                    "Interactant": ["Cotrimoxazol", "Alcohol"],
+                                    "Risico": "Hemorragie",
+                                    "Mechanisme": ["CYP2C9 inhibitie", "Verhoogde coumarine-spiegel"]
+                                },
+                                {
+                                    "Interactant": ["Anti-epileptica", "Rifampicine"],
+                                    "Risico": "Trombose",
+                                    "Mechanisme": ["CYP2C9 inductie", "Verlaagde coumarine-spiegel"]
+                                }
+                            ],
+                            "Onderverdeling": [
+                                {
+                                    "Naam": "Acenocoumarol",
+                                    "Werkingsduur": "Uren",
+                                    "Zwangerschap": ["Risico"]
+                                },
+                                {
+                                    "Naam": "Fenprocoumon",
+                                    "Werkingsduur": "Dagen",
+                                    "Zwangerschap": ["Risico"]
+                                }
+                            ]
+                        },
+                        {
+                            "Naam": "Heparinegroep",
+                            "Bijwerkingen": [
+                                {
+                                    "Bijwerking": "Heparin-induced thrombocytopenia"
+                                },
+                                {
+                                    "Bijwerking": "Hemorragie"
+                                },
+                                {
+                                    "Bijwerking": "Verhoogde leverwaarden"
+                                },
+                                {
+                                    "Bijwerking": "Hyperkaliëmie"
+                                },
+                                {
+                                    "Bijwerking": "Priapisme"
+                                },
+                                {
+                                    "Bijwerking": "Huidnecrose"
+                                }
+                            ],
+                            "Interacties": [
+                                {
+                                    "Interactant": ["Corticosteroïden", "NSAID's"],
+                                    "Risico": "Verhoogd bloedingsrisico"
+                                }
+                            ],                   
+                            "Onderverdeling": [
+                                {
+                                    "Naam": "Ongefractioneerde heparine",
+                                    "Effect": ["Indirecte neutralisering factor Xa en factor IIa"],
+                                    "Mechanisme": ["Activeert anti-trombine III", "Neutraliseert factor IIa en Xa", "Remming omzetting fibrinogeen -> fibrine"]
+                                },
+                                {
+                                    "Naam": "LMWH's",
+                                    "Effect": ["Indirecte neutralisering factor Xa"],
+                                    "Mechanisme": ["Activiteert selectief anti-factor Xa", "Neutraliseert pseudoselectief Xa", "Remming omzetting fibrinogeen -> fibrine"],
+                                    "Indicaties-list": ["Bridging bij CHADVASC >= 8/mechanische klep/kunstklep <3 mnd/recidiverend DVT", "Tromboseprofylaxe"],
+                                    "Interacties": [
+                                        {
+                                            "Interactant": ["NSAID's", "Corticosteroïden"],
+                                            "Risico": "GI-bloedingen"
+                                        },
+                                        {
+                                            "Interactant": ["TAR's", "Coumarinederivaten"],
+                                            "Risico": "Hemorragie",
+                                            "Mechanisme": "Cummulatief effect"
+                                        },
+                                        {
+                                            "Interactant": ["NSAID's", "Diuretica"],
+                                            "Risico": "Hemorragie",
+                                            "Mechanisme": ["Verlaagde nierperfusie", "Verlaagde nierfunctie", "Verlaagde klaring", "Verhoogde LMWH-spiegel"]
+                                        }
+                                    ],
+                                    "Onderverdeling": [
+                                        {
+                                            "Naam": "Nadroparine",
+                                            "Werkingsduur": "Uren",
+                                            "Klaring": "Renaal",
+                                            "Zwangerschap": ["Meest veilig"]
+                                        },
+                                        {
+                                            "Naam": "Enoxaparine",
+                                            "Werkingsduur": "Uren"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Naam": "DOAC's",
+                            "Bijwerkingen": [
+                                {
+                                    "Bijwerking": "Hemorragie"
+                                },
+                                {
+                                    "Bijwerking": "Anemie"
+                                },
+                                {
+                                    "Bijwerking": "Gastro-intestinale bijwerkingen"
+                                }
+                            ],
+                            "Indicaties-list": ["Non-valvulair atriumfibrilleren met CHADVASC >1", "DVT", "Longembolie"],
+                            "Onderverdeling": [
+                                {
+                                    "Naam": "Factor IIa-remmers",
+                                    "Effect": ["Directe remming factor IIa"],
+                                    "Onderverdeling": [
+                                        {
+                                            "Naam": "Dabigatran",
+                                            "Werkingsduur": "Etmaal",
+                                            "Klaring": "Renaal",
+                                            "Mechanisme": ["Bindt direct en reversibel aan stollingsfactor IIa"],
+                                            "Interacties": [
+                                                {
+                                                    "Interactant": ["NSAID's", "RAS-remmers", "Diuretica"],
+                                                    "Risico": "Hemorragie",
+                                                    "Mechanisme": ["Verlaagde nierfunctie", "Verlaagde klaring", "Verhoogde spiegel"]
+                                                }                                        
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Naam": "Factor Xa-remmers",
+                                    "Effect": ["Directe remming factor Xa"],
+                                    "Mechanisme": ["Graat een directe, reversibele binding aan met factor Xa", "Remming fibrinogeen -> fibrine"],
+                                    "Enzym": ["CYP3A4", "Substraat"],
+                                    "Interacties":[
+                                        {
+                                            "Interactant": ["Verapamil", "Itraconazol", "Erytromycine", "Ketoconazol"],
+                                            "Risico": "Hemorragie",
+                                            "Klaring": "Renaal",
+                                            "Mechanisme": ["CYP3A4 inhibitie", "Verhoogde spiegel"],
+                                            "Enzym": ["CYP3A4", "Inhibitor"]
+                                        }
+                                    ],
+                                    "Onderverdeling": [
+                                        {
+                                            "Naam": "Apixaban",
+                                            "Werkingsduur": "Etmaal"
+                                        },
+                                        {
+                                            "Naam": "Rivaroxaban",
+                                            "Werkingsduur": "Uren",
+                                            "Klaring": "Renaal"
+                                        },
+                                        {
+                                            "Naam": "Edoxaban",
+                                            "Werkingsduur": "Etmaal"
+                                        }
+                                    ]
+                                }                        
+                            ]
+                        }
+                    ]
+                }                                
+            ]
+        },
+        {
+            "Naam": "Cardiovasculaire middelen",
+            "Onderverdeling": [
+                {
+                    "Naam": "Antihypertensiva",
+                    "Onderverdeling": [
+                        {
+                            "Naam": "Diuretica",
+                            "Mechanisme": ["Verlaging van het circulerend volume"],
+                            "Interacties": [
+                                {
+                                    "Interactant": ["Cardiovasculaire middelen", "Opiaatagonisten", "Benzodiazepines"],
+                                    "Risico": "Vallen"
+                                },
+                                {
+                                    "Interactant": ["SSRI's"],
+                                    "Risico": "Hyponatriëmie",
+                                    "Mechanisme": "Verhoogde ADH-productie"
+                                },
+                                {
+                                    "Interactant": ["NSAID's", "RAS-remmers"],
+                                    "Risico": "Nierfalen",
+                                    "Mechanisme": "Verlaagde nierfunctie"
+                                },
+                                {
+                                    "Interactant": ["NSAID's", "RAS-remmers"],
+                                    "Risico": "Hyperkaliëmie",
+                                    "Mechansime": "Verlaagde nierfunctie"
+                                },
+                                {
+                                    "Interactant": ["NSAID's"],
+                                    "Risico": "Hypertensie",
+                                    "Mechanisme": "Verlaagde nierfunctie"
+                                }
+                            ],
+                            "Onderverdeling": [
+                                {
+                                    "Naam": "Thiazidediuretica",
+                                    "Klaring": "Renaal",
+                                    "Effect": ["Afname hypertensie", "Vasodilatie", "Langzame volumeafname", "Natriumexcretie"],
+                                    "Indicaties-list": ["Eerste keuze antihypertensivum >50 jaar"],
+                                    "Mechanisme": ["Remming van Na+/Cl- cotransport in de distale tubulus", "Verhoogd aanbod van Na+", "Activatie Na+/K+ counter-transport", "Verhoogde K+ uitscheiding"],
+                                    "Bijwerkingen": [
+                                        {
+                                            "Bijwerking": "Hypotensie",
+                                            "Symptomen": [["Hypotensie", "Vallen"], "Nierfalen"],
+                                            "Risicofactoren": ["Koorts", "Diarree", "Braken", "Anorexie"]
+                                        },
+                                        {
+                                            "Bijwerking": "Hypokaliëmie",
+                                            "Symptomen": ["Spierzwakte"],
+                                            "Risicofactoren": ["Verminderde intake", "Diarree", "Ouderen"]
+                                        },
+                                        {
+                                            "Bijwerking": "Hyperurikemie"
+                                        },
+                                        {
+                                            "Bijwerking": "Hypovolemie"
+                                        },
+                                        {
+                                            "Bijwerking": "Hyponatriëmie"
+                                        },
+                                        {
+                                            "Bijwerking": "Verhoogd LDL"
+                                        },
+                                        {
+                                            "Bijwerking": "Fotosensibilisatie"
+                                        }
+                                    ],
+                                    "Onderverdeling": [
+                                        {
+                                            "Naam": "Chloortalidon",
+                                            "Werkingsduur": "Dagen"
+                                        },
+                                        {
+                                            "Naam": "Hydrochloorthiazide",
+                                            "Werkingsduur": "Etmaal"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Naam": "Lisdiuretica",
+                                    "Effect": ["Afname hypertensie", "Snelle volumeafname"],
+                                    "Indicaties-list": ["Dyspneu en oedeem bij hartfalen/ascites"],
+                                    "Werkingsduur": [6, "uur"],
+                                    "Bijwerkingen": [
+                                        {
+                                            "Bijwerking": "Hypotensie",
+                                            "Symptomen": [["Hypotensie", "Vallen"], "Nierfalen"],
+                                            "Risicofactoren": ["Koorts", "Diarree", "Braken", "Anorexie"]
+                                        },
+                                        {
+                                            "Bijwerking": "Hypokaliëmie",
+                                            "Symptomen": ["Spierzwakte"],
+                                            "Risicofactoren": ["Verminderde intake", "Diarree", "Ouderen"]
+                                        },
+                                        {
+                                            "Bijwerking": "Hyponatriëmie"
+                                        },
+                                        {
+                                            "Bijwerking": "Hypovolemie"
+                                        },
+                                        {
+                                            "Bijwerking": "Hyperkaliëmie"
+                                        },
+                                        {
+                                            "Bijwerking": "Verhoogd LDL"
+                                        },
+                                        {
+                                            "Bijwerking": "Ototoxiciteit"
+                                        }
+                                    ],
+                                    "Mechanisme": ["Na+/K+/2Cl- cotransport inhibitie in de lis van Henle", "Verhoogd Na+ aanbod in de distale tubulus en corticale verzamelbuis", "Na+/K+-countertransport activatie", "Verhoogde K+ uitscheiding"],
+                                    "Onderverdeling": [
+                                        {
+                                            "Naam": "Furosemide",
+                                            "Werkingsduur": "Uren"
+                                        },
+                                        {
+                                            "Naam": "Bumetanide",
+                                            "Werkingsduur": "Uren"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Naam": "Kaliumsparende diuretica",
+                                    "Effect": ["Afname hypertensie", "Toename kalium"],
+                                    "Bijwerkingen": [
+                                        {
+                                            "Bijwerking": "Hypotensie",
+                                            "Risicofactoren": ["Koorts", "Diarree", "Braken", "Anorexie"],
+                                            "Symptomen": [["Hypotensie", "Vallen"], "Nierfalen"]
+                                        },
+                                        {
+                                            "Bijwerking": "Hyperkaliëmie",
+                                            "Risicofactoren": ["Diabetes Mellitus", "Hartfalen", "Ouderen", "Nierfalen"],
+                                            "Symptomen": ["Ritmestoornissen", "Misselijkheid"]
+                                        }
+                                    ],
+                                    "Indicaties-list": ["I.c.m. lis- en/of thiazidediuretica en risico op hypokaliëmie"],
+                                    "Onderverdeling": [
+                                        {
+                                            "Naam": "Spironolacton",
+                                            "Werkingsduur": "Uren",
+                                            "Klaring": "Renaal",
+                                            "Indicaties-list": ["I.c.m. lis- en/of thiazidediuretica bij ernstig hartfalen"],
+                                            "Mechanisme": ["Competitieve antagonist van aldosteron", "Remming van de Na+/K+ countertransporter in de corticale verzamelbuis", "Verlaagde K+ excretie"],
+                                            "Bijwerkingen": [
+                                                {
+                                                    "Bijwerking": "Gastro-intestinale bijwerkingen"
+                                                },
+                                                {
+                                                    "Bijwerking": "Verlaagd libido"
+                                                },
+                                                {
+                                                    "Bijwerking": "Gynaecomastie"
+                                                },
+                                                {
+                                                    "Bijwerking": "Dysmenorroe"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Naam": "Triamtereen",
+                                            "Werkingsduur": "Uren",
+                                            "Klaring": "Renaal",
+                                            "Mechanisme": ["Remming van de corticale Na+ kanalen in de corticale verzamelbuis", "Verlaagd Na+ aanbod", "Verlaagde K+ excretie"]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Naam": "Sympathicolytica",
+                            "Onderverdeling": [
+                                {
+                                    "Naam": "Beta-blokkers",
+                                    "Klaring": "Renaal",
+                                    "Effect": ["Anti-adrenerge werking", "Negatieve dromotropie", "Negatieve chronotropie", "Negatieve inotropie"],
+                                    "Indicaties-list": ["Atriumfibrilleren", "Hypertensie", "Hartfalen", "Secundaire preventie na myocardinfarct"],
+                                    "Interacties": [
+                                        {
+                                            "Interactant": ["Non-dihydropyridines"],
+                                            "Risico": "Bradycardie",
+                                            "Mechanisme": ["Cummulatief effect"]
+                                        },
+                                        {
+                                            "Interactant": ["NSAID's"],
+                                            "Risico": "Hypertensie",
+                                            "Mechanisme": ["Verlaagde nierfunctie", "Hyperkaliëmie"]
+                                        }                        
+                                    ],
+                                    "Bijwerkingen": [
+                                        {
+                                            "Bijwerking": "Hypotensie",
+                                            "Symptomen": "Vallen"
+                                        },
+                                        {
+                                            "Bijwerking": "Bradycardie"
+                                        },
+                                        {
+                                            "Bijwerking": "Koude extremiteiten"
+                                        },
+                                        {
+                                            "Bijwerking": "Hartfalen"
+                                        },
+                                        {
+                                            "Bijwerking": "AV-vertraging"
+                                        }
+                                    ],                                    
+                                    "Onderverdeling": [
+                                        {
+                                            "Naam": "Selectieve beta-blokkers",
+                                            "Mechanisme": [["Stimulering van B1-receptoren in het myocard", "Chronotropie, Inotropie en Dromotropie"]],
+                                            "Onderverdeling": [
+                                                {
+                                                    "Naam": "Metoprolol",
+                                                    "Werkingsduur": "Uren",
+                                                    "Rijveiligheid": "Categorie 1",
+                                                    "Zwangerschap": ["Waarschijnlijk veilig"]
+                                                },
+                                                {
+                                                    "Naam": "Atenolol",
+                                                    "Werkingsduur": "Uren",
+                                                    "Klaring": "Renaal"                                                    
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Naam": "Aselectieve beta-blokkers",
+                                            "Mechanisme": [["Stimulering van B1-receptoren in het myocard", "Chronotropie, Inotropie en Dromotropie"], ["Stimulering van B2-receptoren in luchtwegen en bloedvaten", "Bronchiolo- en beperkte vasodilatatie"]],
+                                            "Bijwerkingen": [
+                                                {
+                                                    "Bijwerking": "Bronchoconstrictie",
+                                                    "Risicofactoren": ["Astma"]
+                                                },
+                                                {
+                                                    "Bijwerking": "Dyspneu"
+                                                },
+                                                {
+                                                    "Bijwerking": "Hypoglykemie"
+                                                },
+                                                {
+                                                    "Bijwerking": "Droge ogen"
+                                                },
+                                                {
+                                                    "Bijwerking": "Erectiele dysfunctie"
+                                                }
+                                            ],
+                                            "Onderverdeling": [
+                                                {
+                                                    "Naam": "Sotalol",
+                                                    "Werkingsduur": "Etmaal",
+                                                    "Klaring": "Renaal",
+                                                    "Bijwerkingen": [
+                                                        {
+                                                            "Bijwerking": "Ritmestoornissen",
+                                                            "Risicofactoren": ["Hypokaliëmie", "Nierfunctieverlies", "Ouderen"]
+                                                        }
+                                                    ],
+                                                    "Interacties": [
+                                                        {
+                                                            "Interactant": ["Thiazidediuretica", "Lisdiuretica"],
+                                                            "Risico": "Ritmestoornissen",
+                                                            "Mechanisme": "Hypokaliëmie"
+                                                        },
+                                                        {
+                                                            "Interactant": ["NSAID's"],
+                                                            "Risico": "Ritmestoornissen",
+                                                            "Mechanisme": ["Verlaagde nierfunctie", "Verhoogde sotalol-spiegel"]
+                                                        },
+                                                        {
+                                                            "Interactant": ["Antipsychotica"],
+                                                            "Risico": "Ritmestoornissen",
+                                                            "Mechanisme": "Cummulatief effect"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "Naam": "Propranolol",
+                                                    "Werkingsduur": "Uren"
+                                                },
+                                                {
+                                                    "Naam": "Labetalol"
+                                                }
+                                            ]
+                                        }                                        
+                                    ]
+                                },
+                                {
+                                    "Naam": "Alfa-blokkers",
+                                    "Indicaties-list": ["Hypertensie", "Mictieklachten"],
+                                    "Mechanisme": [["Vasodilatatie"], ["Relaxatie van de gladde spieren in prostaat en urinewegen", "Bevordering van mictie"]],
+                                    "Bijwerkingen": [
+                                        {
+                                            "Bijwerking": "Hypotensie",
+                                            "Symptomen": "Vallen",
+                                            "Mechanisme": ["Vasodilatatie"]
+                                        },
+                                        {
+                                            "Bijwerking": "Vermoeidheid"
+                                        },
+                                        {
+                                            "Bijwerking": "Ejaculatiestoornis"
+                                        },
+                                        {
+                                            "Bijwerking": "Floppy iris-syndroom"
+                                        }
+                                    ],
+                                    "Onderverdeling": [
+                                        {
+                                            "Naam": "Tamsulosine",
+                                            "Werkingsduur": "Etmaal",
+                                            "Indicaties-list": ["LUTS bij benigne prostaathyperplasie"]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Naam": "Calciumantagonisten",
+                            "Indicaties-list": ["Tweede keuze antihypertensivum >50 jaar"],
+                            "Bijwerkingen": [
+                                {
+                                    "Bijwerking": "Duizeligheid"
+                                },
+                                {
+                                    "Bijwerking": "Blozen"
+                                },
+                                {
+                                    "Bijwerking": "Hoofdpijn"
+                                },
+                                {
+                                    "Bijwerking": "Hypotensie"
+                                },
+                                {
+                                    "Bijwerking": "Perifeer oedeem"
+                                },
+                                {
+                                    "Bijwerking": "GERD"
+                                }
+                            ],
+                            "Onderverdeling": [
+                                {
+                                    "Naam": "Dihydropyridines",
+                                    "Mechanisme": ["Blokkade van de instroom van calcium in de vaatwand", "Inhibitie van de vaatwandcontractie", "Vasodilatatie"],
+                                    "Indicaties-list": ["Hypertensie"],
+                                    "Enzym": ["CYP3A4", "Substraat"],
+                                    "Bijwerkingen": [
+                                        {
+                                            "Bijwerking": "Hoofdpijn"
+                                        },
+                                        {
+                                            "Bijwerking": "Hypotensie",
+                                            "Symptomen": ["Duizeligheid", "Vallen"]
+                                        }
+                                    ],
+                                    "Onderverdeling": [
+                                        {
+                                            "Naam": "Amlodipine",
+                                            "Werkingsduur": "Dagen"
+                                        },
+                                        {
+                                            "Naam": "Nifedipine",
+                                            "Werkingsduur": "Uren"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Naam": "Non-dihydropyridines",
+                                    "Mechanisme": ["Blokkade van de instroom van calcium in de hartwand", "Inhibitie van de SA/AV geleiding", "Negatief chronotrope en negatief inotrope werking"],
+                                    "Indicaties-list": ["Hypertensie", "Atriumfibrilleren"],
+                                    "Bijwerkingen": [
+                                        {
+                                            "Bijwerking": "Bradycardie"
+                                        },
+                                        {
+                                            "Bijwerking": "AV-vertraging"
+                                        }
+                                    ],
+                                    "Interacties": [
+                                        {
+                                            "Interactant": ["Beta-blokkers"],
+                                            "Risico": "Bradycardie en AV-geleidingsstoornissen"
+                                        }
+                                    ],
+                                    "Onderverdeling": [
+                                        {
+                                            "Naam": "Verapamil",
+                                            "Werkingsduur": "Uren",
+                                            "Enzym": ["CYP3A4", "Inhibitor"],
+                                            "Bijwerkingen": [
+                                                {
+                                                    "Bijwerking": "Obstipatie"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Naam": "Diltiazem",
+                                            "Werkingsduur": "Uren",
+                                            "Enzym": ["CYP3A4", "Inhibitor"]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Naam": "RAS-remmers",
+                            "Interacties": [
+                                {
+                                    "Interactant": ["Diuretica", "NSAID's"],
+                                    "Risico": "Nierfalen",
+                                    "Mechanisme": "Cummulatief effect"
+                                },
+                                {
+                                    "Interactant": ["Kaliumsparende diuretica"],
+                                    "Risico": "Hyperkaliëmie",
+                                    "Mechanisme": "Cummulatief effect"
+                                },
+                                {
+                                    "Interactant": ["Diuretica"],
+                                    "Risico": "First-dose hypotension",
+                                    "Mechanisme": "Cummulatief effect"
+                                },
+                                {
+                                    "Interactant": ["Antihypertensiva"],
+                                    "Risico": "Vallen",
+                                    "Mechanisme": "Cummulatief effect"
+                                },
+                                {
+                                    "Interactant": ["Opiaatagonisten", "Benzodiazepines"],
+                                    "Risico": "Vallen",
+                                    "Mechanisme": "Verlaagd bewustzijn"
+                                },
+                                {
+                                    "Interactant": ["NSAID's"],
+                                    "Risico": "Hypertensie",
+                                    "Mechanisme": ["Verminderde nierfunctie", "Hyperkaliëmie"]
+                                }
+                            ],
+                            "Onderverdeling": [
+                                {
+                                    "Naam": "ACE-remmers",
+                                    "Klaring": "Renaal",                                    
+                                    "Indicaties-list": ["Eerste keuze antihypertensivum <50 jaar", "Hartfalen", "Diabetische proteïnurie"],
+                                    "Bijwerkingen": [
+                                        {
+                                            "Bijwerking": "Hypotensie",
+                                            "Symptoom": "Vallen"
+                                        },
+                                        {
+                                            "Bijwerking": "Nierfalen",
+                                            "Risicofactoren": ["Nierfunctieverlies", "Nierarteriestenose"],
+                                            "Mechanisme": ["Hyperstimulatie RAS-systeem", "Toegenomen bloeddrukdaling en nierfunctieverlies"]
+                                        },
+                                        {
+                                            "Bijwerking": "Hyperkaliëmie",
+                                            "Symptoom": ["Afgenomen aldosteronsecretie", "Afname van kaliumsecretie"]
+                                        },
+                                        {
+                                            "Bijwerking": "Angio-oedeem"
+                                        },
+                                        {
+                                            "Bijwerking": "Prikkelhoest"
+                                        },
+                                        {
+                                            "Bijwerking": "Overgevoeligheidsreacties"
+                                        }
+                                    ],
+                                    "Mechanisme": ["Remming van de productie van ATII", ["Vasodilatatie", "Bloeddrukdaling", "Preventie van remodeling van de hartspier / verlaging van de glomerulaire perfusie"], ["Preventie aldosteron secretie", "Toename water- en natriumexcretie", "Afname kaliumexcretie"]],
+                                    "Onderverdeling": [
+                                        {
+                                            "Naam": "Enalapril",
+                                            "Werkingsduur": "Uren",
+                                            "Zwangerschap": ["Risico", "2e en 3e trimester"]
+                                        },
+                                        {
+                                            "Naam": "Lisinopril",
+                                            "Werkingsduur": "Etmaal"
+                                        },
+                                        {
+                                            "Naam": "Captopril",
+                                            "Werkingsduur": "Uren"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Naam": "ARBs",
+                                    "Mechanisme": ["Blokkade van de AT1-receptor", ["Vasodilatatie", "Bloeddrukdaling", "Preventie van remodeling van de hartspier / verlaging van de glomerulaire perfusie"], ["Preventie aldosteron secretie", "Toename water- en natriumexcretie", "Afname kaliumexcretie"]],
+                                    "Indicaties-list": ["Alternatief voor ACE-remmers, bij problematische prikkelhoest/angio-oedeem"],
+                                    "Bijwerkingen": [
+                                        {
+                                            "Bijwerking": "Hypotensie"
+                                        },
+                                        {
+                                            "Bijwerking": "Nierfalen"
+                                        },
+                                        {
+                                            "Bijwerking": "Hyperkaliëmie"
+                                        },
+                                        {
+                                            "Bijwerking": "Smaakstoornissen"
+                                        }
+                                    ],
+                                    "Onderverdeling": [
+                                        {
+                                            "Naam": "Losartan",
+                                            "Werkingsduur": "Uren"
+                                        },
+                                        {
+                                            "Naam": "Valsartan",
+                                            "Werkingsduur": "Uren"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Naam": "Hartglycosiden",
+                    "Indicaties-list": ["Chronisch hartfalen", "Atriumfibrilleren"],
+                    "Mechanisme": [["Remming van ATP in het hart", "Remming van NA/Ka-uitwisseling", "Verhoging cellulaire influx Ca", "Positieve inotropie"], ["Stimulering nervus vagus naar het hart", "Negatief chronotroop en dromotroop"]],
+                    "Interacties": [
+                        {
+                            "Interactant": ["Lisdiuretica", "Thiazidediuretica"],
+                            "Risico": "Ritmestoornissen",
+                            "Mechanisme": ["Verhoogde kaliumexcretie", "Hypokaliëmie"]
+                        },
+                        {
+                            "Interactant": ["NSAID's"],
+                            "Risico": "Ritmestoornissen",
+                            "Mechanisme": ["Verlaagde nierfunctie", "Verlaagde klaring"]
+                        },
+                        {
+                            "Interactant": ["Verapamil"],
+                            "Risico": "Bradycardie",
+                            "Mechanisme": "Cummulatief effect"
+                        }
+                    ],
+                    "Onderverdeling": [
+                        {
+                            "Naam": "Digoxine",
+                            "Werkingsduur": "Dagen",
+                            "Bijwerkingen": [
+                                {
+                                    "Bijwerking": "Duizeligheid"
+                                },
+                                {
+                                    "Bijwerking": "Neurotoxiciteit"
+                                },
+                                {
+                                    "Bijwerking": "AV-vertraging"
+                                },
+                                {
+                                    "Bijwerking": "Aritmie"
+                                },
+                                {
+                                    "Bijwerking": "Bradycardie"
+                                },
+                                {
+                                    "Bijwerking": "Verminderd zicht"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Naam": "Nitraten",
+                    "Mechanisme": ["Worden omgezet in NO in gladde spiercellen in de vaatwand", "Relaxatie van de gladde spiercel", "Vasodilatatie en trombocytenaggregatieremming"],
+                    "Onderverdeling": [
+                        {
+                            "Naam": "Isosorbide-dinitraat",
+                            "Werkingsduur": "Uren",
+                            "Indicaties-list": ["Oromucosaal bij acute angina pectoris"]
+                        },
+                        {
+                            "Naam": "Isosorbide-mononitraat",
+                            "Werkingsduur": "Uren",
+                            "Indicaties-list": ["Oraal als onderhoudsbehandeling bij angina pectoris of astma cardiale"]
+                        }
+                    ],
+                    "Bijwerkingen": [
+                        {
+                            "Bijwerking": "Tolerantie"
+                        },
+                        {
+                            "Bijwerking": "Nitraatcollaps"
+                        },
+                        {
+                            "Bijwerking": "Palpitaties"
+                        },
+                        {
+                            "Bijwerking": "Tachycardie"
+                        }                        
+                    ]
+                },
+                {
+                    "Naam": "Natriumpolystyreensulfonaat",
+                    "Mechanisme": ["Natrium in medicatie stimuleert Na/Ka-wisseling in de dikke darm", "Daling kaliumgehalte"],
+                    "Indicaties-list": ["Hyperkaliëmie bij nierinsufficiëntie", "Ondersteuning bij dialyse"]
+                },
+                {
+                    "Naam": "Insuline/glucose",
+                    "Indicaties-list": ["Hyperkaliëmie"]
+                },
+                {
+                    "Naam": "Calciumgluconaat",
+                    "Indicaties-list": ["Hyperkaliëmie met ECG afwijkingen"]
+                },
+                {
+                    "Naam": "KCl-drank",
+                    "Indicaties-list": ["Hypokaliëmie"]
+                }                 
+            ]
+        },
+        {
+            "Naam": "Protonpompremmers",
+            "Mechanisme": ["Remt H+/K+-ATP-ase in de pariëtale cellen van de maag", "Remmen basale en gestimuleerde maagzuursecretie"],
+            "Indicaties-list": ["Behandeling ulcus duodeni", "Behandeling reflux", "Profylactisch bij NSAID's"],
+            "Bijwerkingen": [
+                {
+                    "Bijwerking": "Hoofdpijn"
+                },
+                {
+                    "Bijwerking": "Gastro-intestinale bijwerkingen"
+                },
+                {
+                    "Bijwerking": "Obstipatie"
+                },
+                {
+                    "Bijwerking": "Flatulentie"
+                },
+                {
+                    "Bijwerking": "Myopathie"
+                },
+                {
+                    "Bijwerking": "Artralgie"
+                },
+                {
+                    "Bijwerking": "Hypomagnesiëmie"
+                },
+                {
+                    "Bijwerking": "Hypocalciëmie"
+                },
+                {
+                    "Bijwerking": "Vitamine B12-tekort"
+                }
+            ],            
+            "Onderverdeling": [
+                {
+                    "Naam": "Omeprazol",
+                    "Werkingsduur": "Dagen",
+                    "Indicaties": [
+                        {
+                            "Indicatie": "Maagbescherming",
+                            "Keuze": 1                            
+                        },
+                        {
+                            "Indicatie": "Maagbescherming",
+                            "Keuze": 1,
+                            "Condities": ["Lactatie", "Zwangerschap"]                            
+                        }
+                    ]                    
+                },
+                {
+                    "Naam": "Pantoprazol",
+                    "Werkingsduur": "Dagen",
+                    "Indicaties": [
+                        {
+                            "Indicatie": "Maagbescherming",
+                            "Keuze": 1                            
+                        },
+                        {
+                            "Indicatie": "Maagbescherming",
+                            "Keuze": 1,
+                            "Condities": ["Lactatie", "Ouderen"]                            
+                        }
+                    ]  
+                }
+            ]
+        },
+        {
+            "Naam": "Statinen",
+            "Indicaties-list": ["Hypercholesterolemie", "Profylaxe bij atherosclerotisch cardiovasculair lijden"],
+            "Bijwerkingen": [
+                {
+                    "Bijwerking": "Myopathie"
+                },
+                {
+                    "Bijwerking": "Verhoogde leverwaarden"
+                }
+            ],
+            "Mechanisme": ["Remment HMG-CoA-reductase", "Aantal LDL-receptoren neemt toe", "Verhoogt LDL opname uit bloed", "Verlaagt LDL, verhoogt HDL"],
+            "Onderverdeling": [
+                {
+                    "Naam": "Atorvastatine",
+                    "Werkingsduur": "Uren",
+                    "Enzym": ["CY3A4", "Substraat", "Actief"],
+                    "Indicaties": [
+                        {
+                            "Indicatie": "Milde hypercholesterolemie (LDL-daling <40%)",
+                            "Keuze": 1                            
+                        },
+                        {
+                            "Indicatie": "Ernstige hypercholesterolemie (LDL-daling >40%)",
+                            "Keuze": 1                            
+                        }
+                    ]
+                },
+                {
+                    "Naam": "Simvastatine",
+                    "Werkingsduur": "Uren",
+                    "Enzym": ["CY3A4", "Substraat", "Actief"],
+                    "Klaring": "Renaal",
+                    "Indicaties": [
+                        {
+                            "Indicatie": "Milde hypercholesterolemie (LDL-daling <40%)",
+                            "Keuze": 1                            
+                        }
+                    ]
+                },
+                {
+                    "Naam": "Pravastatine",
+                    "Klaring": "Renaal",
+                    "Indicaties": [
+                        {
+                            "Indicatie": "Hypercholesterolemie",
+                            "Keuze": 1,
+                            "Conditions": ["Chronisch gebruik van CYP3A4-remmers of inducers"]                            
+                        }
+                    ]
+                },
+                {
+                    "Naam": "Rosuvastatine",
+                    "Klaring": "Renaal",
+                    "Indicaties": [
+                        {
+                            "Indicatie": "Milde hypercholesterolemie (LDL-daling <40%)",
+                            "Keuze": 1                            
+                        },
+                        {
+                            "Indicatie": "Ernstige hypercholesterolemie (LDL-daling >40%)",
+                            "Keuze": 1                            
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Naam": "Anti-jicht middelen",
+            "Onderverdeling": [
+                {
+                    "Naam": "Allopurinol",
+                    "Klaring": "Renaal"
+                }
+            ]
+        },
+        {
+            "Naam": "Antidiabetica",
+            "Onderverdeling": [
+                {
+                    "Naam": "Metformine",
+                    "Werkingsduur": "Uren",
+                    "Klaring": "Renaal",
+                    "Mechanisme": ["Remt glucose productie in de lever", "Verlaagt perifere gevoeligheid voor insuline"],
+                    "Indicaties-list": ["Diabetes Mellitus II"],
+                    "Zwangerschap": ["Waarschijnlijk veilig"],
+                    "Bijwerkingen": [
+                        {
+                            "Bijwerking": "Lactaatacidose",
+                            "Risicofactoren": ["Nierfunctieverlies"],
+                            "Mechanisme": ["Onvoldoende werking nieren -> stapeling metformine", "Totale insulineongevoeligheid"]
+                        },
+                        {
+                            "Bijwerking": "Gastro-intestinale bijwerkingen"
+                        },
+                        {
+                            "Bijwerking": "Smaakstoornissen"
+                        },
+                        {
+                            "Bijwerking": "Vitamine B12-tekort"
+                        }
+                    ]
+                },
+                {
+                    "Naam": "Glucagon",
+                    "Werkingsduur": "Minuten",
+                    "Indicaties-list": ["Ernstige hypoglykemie"]
+                },
+                {
+                    "Naam": "Glucose",
+                    "Indicaties-list": ["Milde hypoglykemie"]
+                },
+                {
+                    "Naam": "SU-derivaten",
+                    "Mechanisme": ["Stimuleren insuline productie in bèta-cellen"],
+                    "Indicaties-list": ["I.c.m. metformine bij therapieresistente DM II"],
+                    "Interacties": [
+                        {
+                            "Interactant": ["Beta-blokkers"],
+                            "Risico": "Verlate herkenning hypoglykemie",
+                            "Mechanisme": ["Maskeren adrenerge symptomen"]
+                        }
+                    ],
+                    "Bijwerkingen": [
+                        {
+                            "Bijwerking": "Hypoglykemie"
+                        },
+                        {
+                            "Bijwerking": "Gewichtstoename"
+                        },
+                        {
+                            "Bijwerking": "Gastro-intestinale bijwerkingen"
+                        }
+                    ],
+                    "Onderverdeling": [
+                        {
+                            "Naam": "Kortwerkende SU-derivaten",
+                            "Onderverdeling": [
+                                {
+                                    "Naam": "Tolbutamide",
+                                    "Werkingsduur": "Uren"
+                                },
+                                {
+                                    "Naam": "Gliclazide",
+                                    "Indicaties-list": ["1e keuze SU-derivaat"]
+                                }
+                            ]
+                        },
+                        {
+                            "Naam": "Langwerkende SU-derivaten",
+                            "Onderverdeling": [
+                                {
+                                    "Naam": "Glimepiride",
+                                    "Werkingsduur": "Uren"
+                                },
+                                {
+                                    "Naam": "Glibenclamide",
+                                    "Werkingsduur": "Etmaal"
+                                }
+                            ]
+                        }
+                        
+                    ]
+                },
+                {
+                    "Naam": "SGLT2-remmers",
+                    "Mechanisme": ["Inhibitie van de sodium-glucose co-transporter in de nieren", "Inhibitie van de renale glucose en natrium reabsorptie", "Daling glucose en natrium"],
+                    "Indicaties-list": ["Bij ongeschiktheid metformine bij DM II", "Hartfalen"],
+                    "Bijwerkingen": [
+                        {
+                            "Bijwerking": "Euglycemische diabetische ketoacidose",
+                            "Risicofactoren": ["Koolhydraatarmdieet"]
+                        },
+                        {
+                            "Bijwerking": "UWI's"
+                        },
+                        {
+                            "Bijwerking": "Hypotensie"
+                        },
+                        {
+                            "Bijwerking": "Verhoogde mictie"
+                        }
+                    ]
+                },
+                {
+                    "Naam": "Insulinen",
+                    "Indicaties-list": ["DM I", "Therapieresistente DM II"],
+                    "Interacties": [
+                        {
+                            "Interactant": ["Beta-blokkers"],
+                            "Risico": "Verlate herkenning hypoglykemie",
+                            "Mechanisme": ["Maskeren adrenerge symptomen"]
+                        }
+                    ],
+                    "Bijwerkingen": [
+                        {
+                            "Bijwerking": "Hypoglykemie"
+                        },
+                        {
+                            "Bijwerking": "Gewichtstoename"
+                        },
+                        {
+                            "Bijwerking": "Overgevoeligheidsreacties"
+                        }
+                    ],
+                    "Onderverdeling": [
+                        {
+                            "Naam": "Kortwerkende insuline",
+                            "Onderverdeling": [
+                                {
+                                    "Naam": "Humuline regular",
+                                    "Werkingsduur": "Minuten"
+                                }
+                            ]
+                        },
+                        {
+                            "Naam": "Snelwerkende insuline",
+                            "Onderverdeling": [
+                                {
+                                    "Naam": "Aspart",
+                                    "Werkingsduur": "Minuten"
+                                }
+                            ]
+                        },
+                        {
+                            "Naam": "Langwerkende insuline",
+                            "Onderverdeling": [
+                                {
+                                    "Naam": "Glargine",
+                                    "Werkingsduur": "Etmaal"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Naam": "Anticholinergica",
+            "Onderverdeling": [
+                {
+                    "Naam": "Antimuscarinica",
+                    "Onderverdeling": [
+                        {
+                            "Naam": "Antipsychotica",
+                            "Onderverdeling": [
+                                {
+                                    "Naam": "Clozapine",
+                                    "Rijveiligheid": "Categorie 2"
+                                },
+                                {
+                                    "Naam": "Quetiapine",
+                                    "Rijveiligheid": "Categorie 2"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Naam": "Antinicotinica"
+                }
+            ]
+        },
+        {
+            "Naam": "Antidepressiva",
+            "Onderverdeling": [
+                {
+                    "Naam": "TCA's",
+                    "Indicaties-list": ["Matig-ernstige depressie", "Neuropatische pijn"],
+                    "Interacties": [
+                        {
+                            "Interactant": ["Antihypertensiva", "Diuretica"],
+                            "Risico": "Vallen",
+                            "Mechanisme": ["Cummulatief effect", "(Orthostatisch) hypotensie"]
+                        }
+                    ],
+                    "Bijwerkingen": [
+                        {
+                            "Bijwerking": "Anticholinerge bijwerkingen"
+                        },
+                        {
+                            "Bijwerking": "Obstipatie"
+                        },
+                        {
+                            "Bijwerking": "Sedatie"
+                        },
+                        {
+                            "Bijwerking": "Hypotensie"
+                        },
+                        {
+                            "Bijwerking": "Seksuele dysfunctie"
+                        },
+                        {
+                            "Bijwerking": "Reboundfenomeen bij staken"
+                        },
+                        {
+                            "Bijwerking": "QT-verlenging"
+                        },
+                        {
+                            "Bijwerking": "AV-vertraging"
+                        }
+                    ],
+                    "Onderverdeling": [
+                        {
+                            "Naam": "Amitriptyline",
+                            "Werkingsduur": "Dagen",
+                            "Rijveiligheid": "Categorie 3",
+                            "Mechanisme": ["Remt heropname van serotonine en noradrenaline", "Toegenomen beschikbaarheid serotonine en noradrenaline"]
+                        },
+                        {
+                            "Naam": "Nortriptyline",
+                            "Werkingsduur": "Dagen",
+                            "Rijveiligheid": "Categorie 2",
+                            "Mechanisme": ["Remt heropname van noradrenaline, en in mindere mate serotonine", "Toegenomen beschikbaarheid noradrenaline"]
+                        }
+                    ]
+                },
+                {
+                    "Naam": "SSRI's",
+                    "Mechanisme": ["Remt heropname van serotonine", "Toegenomen beschikbaarheid serotonine"],
+                    "Indicaties-list": ["Matig-ernstige depressie", "Obsessief-compulsieve stoornissen"],
+                    "Interacties": [
+                        {
+                            "Interactant": ["Thiazidediuretica"],
+                            "Risico": "Hyponatriëmie",
+                            "Mechanisme": "Cummulatief effect"
+                        },
+                        {
+                            "Interactant": ["NSAID's", "Antistolling"],
+                            "Risico": "Hemorragie",
+                            "Mechanisme": "Cummulatief effect"
+                        },
+                        {
+                            "Interactant": ["Lithium", "Tramadol", "Triptanen", "Tryptofaan", "Sint-Janskruid"],
+                            "Risico": "Serotonerg syndroom",
+                            "Mechanisme": "Verhoogde serotonine-spiegel",
+                            "Symptomen": ["Agitatie", "Koorts", "Hyperreflexie"]                            
+                        }
+                    ],
+                    "Bijwerkingen": [
+                        {
+                            "Bijwerking": "Gastro-intestinale bijwerkingen"
+                        },
+                        {
+                            "Bijwerking": "Seksuele dysfunctie"
+                        },
+                        {
+                            "Bijwerking": "Anticholinerge bijwerkingen"
+                        },
+                        {
+                            "Bijwerking": "Bewegingsstoornissen"
+                        },
+                        {
+                            "Bijwerking": "Hyponatriëmie"
+                        },
+                        {
+                            "Bijwerking": "SIADH"
+                        }
+                    ],
+                    "Onderverdeling": [
+                        {
+                            "Naam": "Fluoxetine",
+                            "Werkingsduur": "Dagen",
+                            "Rijveiligheid": "Categorie 1"
+                        },
+                        {
+                            "Naam": "Paroxetine",
+                            "Werkingsduur": "Dagen",
+                            "Rijveiligheid": "Categorie 1"
+                        },
+                        {
+                            "Naam": "Citalopram",
+                            "Werkingsduur": "Dagen",
+                            "Rijveiligheid": "Categorie 1"
+                        }
+                    ]
+                },
+                {
+                    "Naam": "Lithium",
+                    "Werkingsduur": "Dagen",
+                    "Rijveiligheid": "Categorie 2",
+                    "Klaring": "Renaal",
+                    "Voorschrijven": "True",
+                    "Indicaties-list": ["Bipolaire stoornis", "I.c.m. antidepressivum bij therapieresistente depressie"],
+                    "Interacties": [
+                        {
+                            "Interactant": ["Diuretica", "NSAID's", "RAS-remmers"],
+                            "Risico": "Hogere lithiumspiegel",
+                            "Mechanisme": ["Verlaagde nierfunctie", "Verlaagde klaring"]
+                        }
+                    ],
+                    "Bijwerkingen": [
+                        {
+                            "Bijwerking": "Verhoogde mictie"
+                        },
+                        {
+                            "Bijwerking": "Tremor"
+                        },
+                        {
+                            "Bijwerking": "Hypothyreoïdie"
+                        },
+                        {
+                            "Bijwerking": "Gewichtstoename"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Naam": "Benzodiazepines",
+            "Mechanisme": ["Potentiëring van de GABAa-receptor", "Influx van chloride-ionen", "Neuronale hyperpolarisatie", "Toegenomen CZS demping"],
+            "Bijwerkingen": [
+                {
+                    "Bijwerking": "Spierzwakte",
+                    "Symptomen": ["Vallen"]
+                },
+                {
+                    "Bijwerking": "Vermoeidheid"
+                },
+                {
+                    "Bijwerking": "Anterograde amnesie"
+                },
+                {
+                    "Bijwerking": "Tolerantie"
+                },
+                {
+                    "Bijwerking": "Paradoxale reacties"
+                },
+                {
+                    "Bijwerking": "Verlaagde REM-slaap"
+                },
+                {
+                    "Bijwerking": "Reboundfenomeen bij staken"
+                }
+            ],
+            "Interacties": [
+                {
+                    "Interactant": ["Cardiovasculaire middelen", "Alcohol", "Opiaatagonisten"],
+                    "Risico": "Verhoogd valrisico",
+                    "Mechanisme": "Cummulatief effect"
+                },
+                {
+                    "Interactant": ["Opiaatagonisten", "Alcohol"],
+                    "Risico": "Ademdepressie",
+                    "Mechanisme": "Cummulatief effect"
+                }
+            ],
+            "Onderverdeling": [
+                {
+                    "Naam": "Diazepam",
+                    "Werkingsduur": "Dagen",
+                    "Rijveiligheid": "Categorie 3",
+                    "Indicaties-list": ["Afbouwen diazepines", "Serotonerg syndroom", "Koortsconvulsies", "Epileptisch insult"]
+                },
+                {
+                    "Naam": "Oxazepam",
+                    "Werkingsduur": "Etmaal",
+                    "Rijveiligheid": "Categorie 3"
+                },
+                {
+                    "Naam": "Temazepam",
+                    "Werkingsduur": "Uren",
+                    "Rijveiligheid": "Categorie 3",
+                    "Indicaties-list": ["Slaapstoornissen"]
+                },
+                {
+                    "Naam": "Lorazepam",
+                    "Werkingsduur": "Etmaal",
+                    "Rijveiligheid": "Categorie 3",
+                    "Indicaties-list": ["Gegeneraliseerde angststoornissen"]
+                }
+            ]
+        },
+        {
+            "Naam": "Antidota",
+            "Onderverdeling": [
+                {
+                    "Naam": "Flumazenil",
+                    "Werkingsduur": "Uren",
+                    "Indicaties-list": ["Ademhalingsdepressie bij benzodiazepines"]
+                },
+                {
+                    "Naam": "Vitamine K",
+                    "Indicaties-list": ["Bloeding bij coumarinederivaten"]
+                },
+                {
+                    "Naam": "Opiaatantagonisten",
+                    "Onderverdeling": [
+                        {
+                            "Naam": "Naloxon",
+                            "Werkingsduur": "Uren",
+                            "Indicaties-list": ["Overdosis opiaten"]
+                        }
+                    ]
+                },
+                {
+                    "Naam": "N-acetyl-cysteïne",
+                    "Werkingsduur": "Etmaal",
+                    "Indicaties-list": ["Paracetamolintoxicatie"]
+                },
+                {
+                    "Naam": "Vierfactoren concentraat",
+                    "Indicaties-list": ["Ernstige bloeding bij coumarinederivaten"]
+                },
+                {
+                    "Naam": "Heparine antagonist",
+                    "Onderverdeling": [
+                        {
+                            "Naam": "Protamine",
+                            "Mechanisme": ["Neutraliseert volledig anti-factor IIa, en partieel anti-factor Xa"],
+                            "Indicaties-list": ["Levensbedreigende bloeding on (ongefractioneerde) heparine"]
+                        }
+                    ]
+                },
+                {
+                    "Naam": "Desmopressine",
+                    "Indicaties-list": ["Acute OK onder TAR's"]
+                },
+                {
+                    "Naam": "Trombocytentransfusie",
+                    "Indicaties-list": ["Acute OK onder TAR's met hoog bloedingsrisico"]
+                },
+                {
+                    "Naam": "Idarucizumab",
+                    "Indicaties-list": ["Bloeding onder dabigatran"]
+                },
+                {
+                    "Naam": "Andexanet Alfa",
+                    "Indicaties-list": ["Bloeding onder factor Xa-remmers"]
+                }
+            ]
+        },
+        {
+            "Naam": "Anti-epileptica",
+            "Onderverdeling": [
+                {
+                    "Naam": "Carbamazepine",
+                    "Rijveiligheid": "Categorie 2",
+                    "Indicaties-list": ["Epilepsie", "Neuralgie", "Diabetes insipidus", "BPD"],
+                    "Zwangerschap": ["Risico"],
+                    "Enzym": [["CYP2C9", "CYP3A4"], "Inducer"],
+                    "Voorschrijven": "True"
+                },
+                {
+                    "Naam": "Fenytoïne",
+                    "Rijveiligheid": "Categorie 3",
+                    "Indicaties-list": ["Epilepsie", "Aritmieën"],
+                    "Enzym": [["CYP2C9", "CYP3A4"], "Inducer"],
+                    "Voorschrijven": "True"
+                }
+            ]
+        },
+        {
+            "Naam": "Voedingsmiddelen",
+            "Onderverdeling": [
+                {
+                    "Naam": "Sterfruit",
+                    "Enzym": ["CYP3A4", "Inhibitor"]
+                },
+                {
+                    "Naam": "Zwarte peper",
+                    "Enzym": ["CYP3A4", "Inhibitor"]
+                },
+                {
+                    "Naam": "Grapefruitsap",
+                    "Enzym": ["CYP3A4", "Inhibitor"]
+                },
+                {
+                    "Naam": "Sint-Janskruid",
+                    "Enzym": ["CYP3A4", "Inducer"]
+                },
+                {
+                    "Naam": "Alcohol",
+                    "Enzym": ["CYP2E1", "Inducer"]
+                },
+                {
+                    "Naam": "Metalen",
+                    "Onderverdeling": [
+                        {
+                            "Naam": "Aluminium"
+                        },
+                        {
+                            "Naam": "Calcium"
+                        },
+                        {
+                            "Naam": "IJzer"
+                        },
+                        {
+                            "Naam": "Magnesium"
+                        }
+                    ]
+                },
+                {
+                    "Naam": "Tryptofaan"
+                }
+            ]
+        },
+        {
+            "Naam": "Immunosuppresiva",
+            "Onderverdeling": [
+                {
+                    "Naam": "Corticosteroïden"
+                },
+                {
+                    "Naam": "Methotrexaat",
+                    "Voorschrijven": "True"
+                }
+            ]
+        },
+        {
+            "Naam": "Migraine medicatie",
+            "Onderverdeling": [
+                {
+                    "Naam": "Triptanen",
+                    "Onderverdeling": [
+                        {
+                            "Naam": "Sumatriptan",
+                            "Rijveiligheid": "Categorie 2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Naam": "Antibiotica",
+            "Interacties": [
+                {
+                    "Interactant": ["Coumarinederivaten"],
+                    "Risico": "Hemorragie",
+                    "Mechanisme": ["Verhoogde afbraak stollingsfactoren", "Verlaagde spiegel stollingsfactoren"]
+                }
+            ],
+            "Onderverdeling": [
+                {
+                    "Naam": "Bacteriocidica",
+                    "Onderverdeling": [
+                        {
+                            "Naam": "Celwandremmers",
+                            "Onderverdeling": [
+                                {
+                                    "Naam": "Beta-lactam antibiotica",
+                                    "Mechanisme": ["Binding aan PBP's in celwand", "Inhibitie synthese peptidoglycanen", "Inhibitie van celwand synthese"],
+                                    "Onderverdeling": [
+                                        {
+                                            "Naam": "Penicillines",
+                                            "Bijwerkingen": [
+                                                {
+                                                    "Bijwerking": "Overgevoeligheidsreacties"
+                                                },
+                                                {
+                                                    "Bijwerking": "Hemolytische anemie"
+                                                },
+                                                {
+                                                    "Bijwerking": "Gastro-intestinale bijwerkingen"
+                                                },
+                                                {
+                                                    "Bijwerking": "Verstoring darmflora"
+                                                },
+                                                {
+                                                    "Bijwerking": "Nierfalen"
+                                                },
+                                                {
+                                                    "Bijwerking": "Neurotoxiciteit"
+                                                },
+                                                {
+                                                    "Bijwerking": "Stollingsstoornissen"
+                                                },
+                                                {
+                                                    "Bijwerking": "Bloedbeeldafwijkingen"
+                                                }
+                                            ],
+                                            "Indicaties-list": ["Gram-positieve bacteriën"],
+                                            "Onderverdeling": [
+                                                {
+                                                    "Naam": "Penicilline"
+                                                },
+                                                {
+                                                    "Naam": "Amoxicilline",
+                                                    "Klaring": "Renaal",
+                                                    "Zwangerschap": ["Meest veilig"],
+                                                    "Indicaties": [
+                                                        {
+                                                            "Indicatie": "Milde pneumonie met onbekende verwekker",
+                                                            "Keuze": 1
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "Naam": "Piperacilline",
+                                                    "Klaring": "Renaal"
+                                                },
+                                                {
+                                                    "Naam": "Penicilline met beta-lactamaseremmer",
+                                                    "Indicaties-list": ["Beta-lactamase producerende bacteriën"],
+                                                    "Onderverdeling": [
+                                                        {
+                                                            "Naam": "Piperacilline/tazobactam",
+                                                            "Klaring": "Renaal"
+                                                        },
+                                                        {
+                                                            "Naam": "Amoxicilline/clavulaanzuur",
+                                                            "Indicaties": [
+                                                                {
+                                                                    "Indicatie": "Milde aspiratiepneumonie",
+                                                                    "Keuze": 1
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }                                
+                                            ]
+                                        },
+                                        {
+                                            "Naam": "Cefalosporines",
+                                            "Onderverdeling": [
+                                                {
+                                                    "Naam": "Ceftriaxon",
+                                                    "Indicaties-list": ["Gram-negatieve bacteriën"]
+                                                },
+                                                {
+                                                    "Naam": "Cefuroxim",
+                                                    "Klaring": "Renaal"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Naam": "Fosfomycine",
+                                    "Mechanisme": ["Inhibitie van fosfo-enol-pyruvyltransferase", "Inhibitie van peptidoglycaansynthese", "Inhibitie van de celwand"],
+                                    "Indicaties-list": ["UWI, tweede keuze"]
+                                },
+                                {
+                                    "Naam": "Glycopeptiden",
+                                    "Mechanisme": ["Binding aan d-alanyl-d-alanine uiteinde van peptidoglycanen", "Inhibitie van celwand synthese"],
+                                    "Onderverdeling": [
+                                        {
+                                            "Naam": "Vancomycine",
+                                            "Indicaties-list": ["MRSA"]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Naam": "Fluorchinolonen",
+                            "Indicaties-list": ["Gram-negatieve bacteriën"],
+                            "Mechanisme": ["Inhibitie DNA-gyrase", "Inhibitie DNA synthese", "Bacteriocide"],
+                            "Bijwerkingen": [
+                                {
+                                    "Bijwerking": "Gastro-intestinale bijwerkingen"
+                                },
+                                {
+                                    "Bijwerking": "Neurotoxiciteit"
+                                },
+                                {
+                                    "Bijwerking": "Slaapstoornissen"
+                                },
+                                {
+                                    "Bijwerking": "QT-verlenging"
+                                },
+                                {
+                                    "Bijwerking": "Tendinitis"
+                                },
+                                {
+                                    "Bijwerking": "Arthritis"
+                                }
+                            ],
+                            "Onderverdeling": [
+                                {
+                                    "Naam": "Ciprofloxacine",
+                                    "Klaring": "Renaal",
+                                    "Enzym": ["CYP3A4", "Inhibitor"],
+                                    "Zwangerschap": ["Onbekend", "2e en 3e trimester"]
+                                },
+                                {
+                                    "Naam": "Levofloxacine",
+                                    "Klaring": "Renaal",
+                                    "Indicaties": [
+                                        {
+                                            "Indicatie": "Milde pneumonie met vermoeden Legionalla",
+                                            "Keuze": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Naam": "Moxifloxacine",
+                                    "Indicaties": [
+                                        {
+                                            "Indicatie": "Milde pneumonie met vermoeden Legionalla",
+                                            "Keuze": 1
+                                        }
+                                    ]
+                                }
+                            ],
+                            "Interacties": [
+                                {
+                                    "Interactant": ["Aluminium", "Calcium", "IJzer", "Magnesium"],
+                                    "Risico": "Verlaagde antibiotische werking",
+                                    "Mechanisme": ["Vorming onoplosbare complexen", "Verlaagde absorptie"]
+                                }
+                            ]
+                        },
+                        {
+                            "Naam": "Trimethoprim/sulfamethoxazol",
+                            "Mechanisme": ["Inhibitie synthese dihydrofoliumzuur", "Inhibitie DNA formation", "Bacteriocide"],
+                            "Voorschrijven": "True",
+                            "Interacties": [
+                                {
+                                    "Interactant": ["Methotrexaat"],
+                                    "Risico": "Megaloblastaire anemie",
+                                    "Mechanisme": ["Verstoorde foliumzuurhuishouding", "Beenmergsuppressie"]
+                                },
+                                {
+                                    "Interactant": ["Coumarinederivaten"],
+                                    "Risico": "Hemorragie",
+                                    "Mechanisme": ["CYP2C9 inhibitie", "Verminderde afbraak", "Verhoogde spiegel"]
+                                }
+                            ],
+                            "Onderverdeling": [
+                                {
+                                    "Naam": "Cotrimoxazol",
+                                    "Klaring": "Renaal",
+                                    "Enzym": ["CYP2C9", "Inhibitor"]
+                                }
+                            ]
+                        },                        
+                        {
+                            "Naam": "Rifamycine-groep",
+                            "Enzym": ["CYP2C9", "Inducer"],
+                            "Onderverdeling": [
+                                {
+                                    "Naam": "Rifampicine",
+                                    "Enzym": [["CYP2D6", "CYP3A4"], "Inducer"],
+                                    "Voorschrijven": "True",
+                                    "Indicaties-list": ["Tuberculose", "Lepra"]
+                                }
+                            ]
+                        },
+                        {
+                            "Naam": "Nitrofurantoïne",
+                            "Klaring": "Renaal",
+                            "Mechanisme": ["Remming van de Krebs-cyclus", "Onvoldoende energie voor de instandhouding van de bacterie"],
+                            "Indicaties-list": ["UWI", "Profylaxe bij transurethrale ingrepen"]
+                        }
+                    ]
+                },
+                {
+                    "Naam": "Bacteriostatica",
+                    "Onderverdeling": [
+                        {
+                            "Naam": "Tetracyclinen",
+                            "Mechanisme": ["Bindt de 30S en 50S subunits ribisoom", "Inhibitie van de bacteriële eiwitsynthese", "Bacteriostase"],
+                            "Interacties": [
+                                {
+                                    "Interactant": ["Aluminium", "Calcium", "IJzer", "Magnesium"],
+                                    "Risico": "Verlaagde antibiotische werking",
+                                    "Mechanisme": ["Vorming onoplosbare complexen", "Verlaagde absorptie"]
+                                }
+                            ],
+                            "Onderverdeling": [
+                                {
+                                    "Naam": "Doxycycline",
+                                    "Indicatie-list": ["Pneumonie", "Gonorroe", "Syfilis", "Acne vulgaris", "Lyme", "Malaria"],
+                                    "Zwangerschap": ["Risico", "Vanaf week 16"],
+                                    "Indicaties": [
+                                        {
+                                            "Indicatie": "Milde pneumonie met onbekende verwekker",
+                                            "Keuze": 2,
+                                            "Condities": ["Volwassenen, kinderen > 10 jaar"]
+                                        },
+                                        {
+                                            "Indicatie": "Milde pneumonie met vermoeden Legionalla",
+                                            "Keuze": 3
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Naam": "Tetracycline",
+                                    "Klaring": "Renaal"
+                                }
+                            ]
+                        },
+                        {
+                            "Naam": "Aminoglycosiden",
+                            "Mechanisme": ["Bindt de 30S subunits ribisoom", "Inhibitie van de bacteriële eiwitsynthese", "Bacteriostase"],
+                            "Bijwerkingen": [
+                                {
+                                    "Bijwerking": "Nierfalen"
+                                },
+                                {
+                                    "Bijwerking": "Ototoxiciteit"
+                                },
+                                {
+                                    "Bijwerking": "Hypomagnesiëmie"
+                                },
+                                {
+                                    "Bijwerking": "Neuromusculaire blokkade"
+                                }
+                            ],
+                            "Onderverdeling": [
+                                {
+                                    "Naam": "Gentamicine",
+                                    "Zwangerschap": ["Risico"],
+                                    "Indicaties-list": ["Sepsis"]
+                                }
+                            ]
+                        },
+                        {
+                            "Naam": "Macroliden",
+                            "Mechanisme": ["Bindt de 50S subunits ribisoom", "Inhibitie van de bacteriële eiwitsynthese", "Bacteriostase"],
+                            "Indicaties-list": ["Gram-positieve bacteriën", "Pneumokokken", "Intracellulaire organismen"],
+                            "Bijwerkingen": [
+                                {
+                                    "Bijwerking": "Gastro-intestinale bijwerkingen"
+                                },
+                                {
+                                    "Bijwerking": "QT-verlenging"
+                                },
+                                {
+                                    "Bijwerking": "Cholestatische hepatitis"
+                                },
+                                {
+                                    "Bijwerking": "Overgevoeligheidsreacties"
+                                },
+                                {
+                                    "Bijwerking": "Ototoxiciteit"
+                                }
+                            ],
+                            "Interacties": [
+                                {
+                                    "Interactant": ["Sotalol", "TCA's", "SSRI's"],
+                                    "Risico": "Torsade De Pointes",
+                                    "Mechanisme": "Cummulatief effect"
+                                }
+                            ],
+                            "Onderverdeling": [
+                                {
+                                    "Naam": "Azitromycine",
+                                    "Indicaties": [
+                                        {
+                                            "Indicatie": "Milde pneumonie met onbekende verwekker",
+                                            "Keuze": 2,
+                                            "Condities": ["Zwangeren, lactatie of kinderen < 10"]
+                                        },
+                                        {
+                                            "Indicatie": "Milde pneumonie met vermoeden Legionalla",
+                                            "Keuze": 2
+                                        },
+                                        {
+                                            "Indicatie": "Acute diarree met "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Naam": "Claritromycine",
+                                    "Klaring": "Renaal",
+                                    "Enzym": ["CYP3A4", "Inhibitor"],
+                                    "Indicatie-list": ["Pneumonie"],
+                                    "Indicaties": [
+                                        {
+                                            "Indicatie": "Milde pneumonie met onbekende verwekker",
+                                            "Keuze": 2,
+                                            "Condities": ["Zwangeren, lactatie of kinderen < 10"]
+                                        },
+                                        {
+                                            "Indicatie": "Milde pneumonie met vermoeden Legionalla",
+                                            "Keuze": 2
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Naam": "Erytromycine",
+                                    "Enzym": ["CYP3A4", "Inhibitor"]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Naam": "Fungicidica",
+                    "Onderverdeling": [
+                        {
+                            "Naam": "Azolen",
+                            "Onderverdeling": [
+                                {
+                                    "Naam": "Imidazolen",
+                                    "Bijwerkingen": [
+                                        {
+                                            "Bijwerking": "Gastro-intestinale bijwerkingen"
+                                        }
+                                    ],
+                                    "Mechanisme": ["Aselectieve inhibitie van ergosterol synthese via CYP51", "Inhibitie van de opbouw van het celmembraan"],                            
+                                    "Onderverdeling": [
+                                        {
+                                            "Naam": "Ketoconazol",
+                                            "Voorschrijven": "True", 
+                                            "Enzym": ["CYP3A4", "Inhibitor"]
+                                        },
+                                        {
+                                            "Naam": "Miconazol",
+                                            "Enzym": ["CYP2C9", "Inhibitor"],
+                                            "Indicaties": [
+                                                {
+                                                    "Indicatie": "Orofaryngeale candidiasis",
+                                                    "Keuze": 1
+                                                },
+                                                {
+                                                    "Indicatie": "Spruw, tepel",
+                                                    "Keuze": 1
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Naam": "Metronidazol",
+                                            "Indicaties-list": ["Anaerobe infecties e.g. clostridium"],
+                                            "Voorschrijven": "True"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Naam": "Triazolen",
+                                    "Mechanisme": ["Selectieve inhibitie van ergosterol synthese via CYP51", "Inhibitie van de opbouw van het celmembraan"],
+                                    "Bijwerkingen": [
+                                        {
+                                            "Bijwerking": "Huidreacties"
+                                        },
+                                        {
+                                            "Bijwerking": "Verhoogde leverwaarden"
+                                        },
+                                        {
+                                            "Bijwerking": "Hypokaliëmie"
+                                        },
+                                        {
+                                            "Bijwerking": "Hypertriglyceridemie"
+                                        },
+                                        {
+                                            "Bijwerking": "Leverbeschadiging"
+                                        },
+                                        {
+                                            "Bijwerking": "QT-verlenging"
+                                        }
+                                    ],
+                                    "Onderverdeling": [
+                                        {
+                                            "Naam": "Itraconazol",
+                                            "Enzym": ["CYP3A4", "Inhibitor"],
+                                            "Bijwerkingen": [
+                                                {
+                                                    "Bijwerking": "Hartfalen"
+                                                }
+                                            ],
+                                            "Indicaties": [
+                                                {
+                                                    "Indicatie": "Orofaryngeale candidiasis",
+                                                    "Keuze": 2,
+                                                    "Condities": ["Immunnosuppresie"]
+                                                },
+                                                {
+                                                    "Indicatie": "Recidiverende rofaryngeale candidiasis",
+                                                    "Keuze": 1
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Naam": "Fluconazol",
+                                            "Klaring": "Renaal",
+                                            "Voorschrijven": "True",
+                                            "Enzym": ["CYP3A4", "Inhibitor"],
+                                            "Indicaties": [
+                                                {
+                                                    "Indicatie": "Orofaryngeale candidiasis",
+                                                    "Keuze": 1,
+                                                    "Condities": ["Immunnosuppresie"]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
