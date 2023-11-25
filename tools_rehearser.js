@@ -18,88 +18,6 @@ var base = "";
 
 /* Define the pages */
 
-var landing_page = `
-<script type="text/javascript" src="tools_rehearser.js"></script>
-
-<div class="chapter"><H1>Basics</H1></div>
-
-<div style="display:block; text-align: center;" onclick="startLevel(1)">
-    <div class="card" id="active">
-        <img src="./Images/Network.png" style="width:20vw;height:20vw;">
-    </div>
-
-    <H2> Organisatie </H2>
-
-</div>
-
-<div style="display:block; text-align: center;" onclick="startLevel(2)">
-    <div class="card" id="active">
-        <img src="./Images/Network.png" style="width:20vw;height:20vw;">
-    </div>
-
-    <H2> Indiv. medicatie </H2>
-
-</div>
-
-<div class="chapter" ><H1>Bijwerkingen en indicaties</H1></div>  
-
-<div style="display:block; text-align: center;" onclick="startLevel2()">
-    <div class="card" id="active">
-        <img src="./Images/Interactions.png" style="width:20vw;height:20vw;">
-    </div>
-
-    <H2> Interacties </H2>
-
-</div>
-
-<div style="display:block; text-align: center;" onclick="startLevel3()">
-    <div class="card" id="active">
-        <img src="./Images/Interactions.png" style="width:20vw;height:20vw;">
-    </div>
-
-    <H2> Indicaties </H2>
-
-</div>
-
-<div class="chapter" ><H1>Rijveiligheid, zwangerschap en voorschrijven</H1></div>  
-
-<div style="display:block; text-align: center;" onclick="startLevel3()">
-    <div class="card" id="active">
-        <img src="./Images/SteeringWheel.png" style="width:20vw;height:20vw;">
-    </div>
-
-    <H2> Rijveiligheid </H2>
-
-</div>
-
-<div style="display:block; text-align: center;" onclick="startLevel4()">
-    <div class="card" id="active">
-        <img src="./Images/Pregnancy.png" style="width:20vw;height:20vw;">
-    </div>
-
-    <H2> Zwangerschap </H2>
-
-</div>
-
-<div style="display:block; text-align: center;" onclick="startLevel5()">
-    <div class="card" id="active">
-        <img src="./Images/Pad.png" style="width:20vw;height:20vw;">
-    </div>
-
-    <H2> Voorschrijven </H2>
-
-</div>
-
-<div style="display:block; text-align: center;" onclick="startLevel6()">
-    <div class="card" id="active">
-        <img src="./Images/Enzym.png" style="width:20vw;height:20vw;">
-    </div>
-
-    <H2> Enzymen </H2>
-
-</div>
-`
-
 var level_page= `
 
     <script type="text/javascript" src="tools_rehearser.js"></script>
@@ -131,254 +49,77 @@ var level_page= `
 var page_order=`
 <div class="card" onclick="startLevel(1)">
 
-            <div class="bubble">
-                <img src="./Images/Network.png">
-            </div>
+    <div class="bubble">
+        <img src="./Images/Skeleton.png">
+    </div>
 
-            <div class="text-right">
+    <div class="text-right">
 
-                <H1> Categories </H1>
-                <p> & where to find them </p>
+        <H1> Bones </H1>
+        <p> & other hard problems </p>
 
-            </div>
+    </div>
 
-        </div>
-        
-        <div class="card" onclick="startLevel(2)">
+</div>
 
-            <div class="bubble">
-                <img src="./Images/Network.png">
-            </div>
+<div class="card" onclick="startLevel(2)">
 
-            <div class="text-right">
+    <div class="bubble">
+        <img src="./Images/Skeleton.png">
+    </div>
 
-                <H1> Drugs </H1>
-                <p> & what they are</p>
+    <div class="text-right">
 
-            </div>
+        <H1> Muscles </H1>
+        <p> & other moving subjects</p>
 
-        </div>
+    </div>
+
+</div>
 `
 
 var page_recognise =`
 
         <div class="inset"> <p> Major topics </p> </div>
 
-        <div class="card" onclick="startLevel(3)">
-
-            <div class="bubble">
-                <img src="./Images/Interactions.png">
-            </div>
-
-            <div class="text-right">
-
-                <H1> Interactions </H1>
-                <p> & how they communicate </p>
-
-            </div>
-
-        </div>
-        
-        <div class="card" onclick="startLevel(11)">
-
-            <div class="bubble">
-                <img src="./Images/Interactions.png">
-            </div>
-
-            <div class="text-right">
-
-                <H1> Side-effects </H1>
-                <p> & what else they do </p>
-
-            </div>
-
-        </div>
-
-        <div class="card" onclick="startLevel(4)">
-
-            <div class="bubble">
-                <img src="./Images/Interactions.png">
-            </div>
-
-            <div class="text-right">
-
-                <H1> Indications </H1>
-                <p> & why to use them </p>
-
-            </div>
-
-        </div>
-
-        <div class="card" onclick="startLevel(5)">
-
-            <div class="bubble">
-                <img src="./Images/Interactions.png">
-            </div>
-
-            <div class="text-right">
-
-                <H1> Mechanisms </H1>
-                <p> & how they work </p>
-
-            </div>
-
-        </div>
-
-        <div class="inset"> <p> Minor topics </p> </div>
-
-        <div class="card" onclick="startLevel(7)">
-
-            <div class="bubble">
-                <img src="./Images/Interactions.png">
-            </div>
-
-            <div class="text-right">
-
-                <H1> Pregnancy </H1>
-                <p> & when not to use them </p>
-
-            </div>
-
-        </div>
-
-        <div class="card" onclick="startLevel(8)">
-
-            <div class="bubble">
-                <img src="./Images/Interactions.png">
-            </div>
-
-            <div class="text-right">
-
-                <H1> Prescriptions </H1>
-                <p> & when to mark them </p>
-
-            </div>
-
-        </div>
-
-        <div class="card" onclick="startLevel(9)">
-
-            <div class="bubble">
-                <img src="./Images/Interactions.png">
-            </div>
-
-            <div class="text-right">
-
-                <H1> Enzym </H1>
-                <p> & how they're processed </p>
-
-            </div>
-
-        </div>
-
-        <div class="card" onclick="startLevel(10)">
-
-            <div class="bubble">
-                <img src="./Images/Interactions.png">
-            </div>
-
-            <div class="text-right">
-
-                <H1> Clearance </H1>
-                <p> & how to get rid of them </p>
-
-            </div>
-
-        </div>
-
-        <div class="card" onclick="startLevel(18)">
-
-            <div class="bubble">
-                <img src="./Images/Interactions.png">
-            </div>
-
-            <div class="text-right">
-
-                <H1> Werkingsduur </H1>
-                <p> & how to last longer </p>
-
-            </div>
-
-        </div>
-
-        <div class="card" onclick="startLevel(16)">
-
-            <div class="bubble">
-                <img src="./Images/Interactions.png">
-            </div>
-
-            <div class="text-right">
-
-                <H1> Rijveiligheid </H1>
-                <p> & how not to hit others </p>
-
-            </div>
-
-        </div>
 `
 
 var page_do =`
 
         <div class="inset"> <p> Preparation </p> </div>
 
-        <div class="card" onclick="startLevel(12)">
-
-            <div class="bubble">
-                <img src="./Images/Interactions.png">
-            </div>
-
-            <div class="text-right">
-
-                <H1> Side-effects </H1>
-                <p> At least the most important ones </p>
-
-            </div>
-
-        </div>
-
-        <div class="card" onclick="startLevel(14)">
-
-            <div class="bubble">
-                <img src="./Images/Interactions.png">
-            </div>
-
-            <div class="text-right">
-
-                <H1> Minor topics </H1>
-                <p> All-in-one </p>
-
-            </div>
-
-        </div>
-
-        <div class="inset"> <p> Final test </p> </div>
-
-        <div class="card" onclick="startLevel(15)">
-
-            <div class="bubble">
-                <img src="./Images/Interactions.png">
-            </div>
-
-            <div class="text-right">
-
-                <H1> Final test </H1>
-                <p> Truly all-in-one </p>
-
-            </div>
-
-        </div>
 `
 
 var pages = {
-    "Order": page_order,
-    "Recognise": page_recognise,
-    "Do": page_do
+    "order": page_order,
+    "recognise": page_recognise,
+    "do": page_do
 };
 
 var trivial_answers = ["Ja", "Nee", "Substraat", "Inhibitor", "Inducer"];
 
 function toPage(page) {
     document.getElementById("main-container").innerHTML = pages[page];
+
+    document.getElementById(page).style.setProperty("transition-duration", "0.5s");
+    document.getElementById(page).style.setProperty("box-shadow", "0px 1vh 2vh 1vh rgba(173, 216, 230, 0.753)");
+    document.getElementById(page).style.setProperty("padding-bottom", "3vh");
+    document.getElementById(page).style.setProperty("border-bottom-width", "2vh");
+
+    for (var i = 0; i < Object.keys(pages).length; i++) {
+
+        if (Object.keys(pages)[i] != page) {
+
+            placeholder_page = Object.keys(pages)[i]
+
+            document.getElementById(placeholder_page).style.setProperty("box-shadow", "0px 0vh 0vh 0vh");
+            document.getElementById(placeholder_page).style.setProperty("padding-bottom", "2vh");
+            document.getElementById(placeholder_page).style.setProperty("border-bottom-width", "1vh");
+
+        };
+
+    };
+
 }
 
 /***
@@ -393,7 +134,7 @@ function startLevel(level) {
     document.getElementsByTagName("BODY")[0].innerHTML = level_page;
     setEnter();
 
-    fetch("./data_pharmacology.json")
+    fetch("./data_anatomy.json")
 
     .then(function(response){
         console.log("- > File found and accessed");
@@ -409,7 +150,7 @@ function startLevel(level) {
         console.log(original_dictionary);
         console.log("-> Starting level " + level.toString());    
 
-        prepareComponents();
+        prepareComponents(level);
     })
     .then(function(){
 
@@ -434,11 +175,18 @@ function startLevel(level) {
 
 };
 
-function prepareComponents() {
+function prepareComponents(level) {
 
     console.log("- > Preparing components");
 
-    var explorable_array = [original_dictionary];
+    if (level == 1) {
+        var explorable_array = [original_dictionary["Subdivision"][0]];
+    } else if (level == 2) {
+        var explorable_array = [original_dictionary["Subdivision"][1]];
+    } else {
+        var explorable_array = [original_dictionary];
+    };
+    
     var temp_ancestry_dict = {};
     var temp_content_dict = {};
     var temp_terminals_array = [];
@@ -449,29 +197,29 @@ function prepareComponents() {
 
         console.log("Exploring " + explorable_item);
 
-        parent_name = explorable_item.Naam;
+        parent_name = explorable_item["Name"];
 
         temp_content_dict[parent_name] = explorable_item;
 
-        if (Object.keys(explorable_item).includes("Onderverdeling")) {
+        if (Object.keys(explorable_item).includes("Subdivision")) {
 
             /* I.e. explorable_item is non-terminal */
 
-            for (var i = 0; i < explorable_item.Onderverdeling.length; i++) {
+            for (var i = 0; i < explorable_item["Subdivision"].length; i++) {
 
                 /* Push each child to explorable */
 
-                explorable_array.push(explorable_item.Onderverdeling[i]);
+                explorable_array.push(explorable_item["Subdivision"][i]);
 
-                var child_name = explorable_item.Onderverdeling[i].Naam;
+                var child_name = explorable_item["Subdivision"][i]["Name"];
 
-                if (Object.keys(explorable_item.Onderverdeling[i]).includes("Onderverdeling")) {
+                if (Object.keys(explorable_item["Subdivision"][i]).includes("Subdivision")) {
 
                     grand_children = [];
 
-                    for (var j = 0; j < explorable_item.Onderverdeling[i].Onderverdeling.length; j++) {
+                    for (var j = 0; j < explorable_item["Subdivision"][i]["Subdivision"].length; j++) {
 
-                        grand_children.push(explorable_item.Onderverdeling[i].Onderverdeling[j].Naam);
+                        grand_children.push(explorable_item["Subdivision"][i]["Subdivision"][j]["Name"]);
 
                     };
                     
@@ -519,28 +267,21 @@ function prepareQuestions(level) {
             child = Object.keys(local_ancestry_dict)[i];
             parent = local_ancestry_dict[child].Parent; 
 
-            if (parent != base && ((level == 1 && !terminals_array.includes(child)) || (level == 2 && terminals_array.includes(child)))) {
+            if (level == 1 || level == 2) {
 
-                if (Math.random() > 0.8) {
+                question_string = "Waar is " + child + " een onderdeel van?";
+                temp_question_array.push({"Question": question_string, "Answer": parent });
 
-                    temp_question_array.push(ancestryQuestion(child));
-    
-                } else {
+            };            
 
-                    question_string = "Wat is de klasse van " + child;
-                    temp_question_array.push({"Question": question_string, "Answer": parent });
+            if (level == 100) {                
                 
+                if (Object.keys(local_ancestry_dict[child]).includes("Children")) {
+
+                    question_string = child + " heeft " + (local_ancestry_dict[child]["Children"].length).toString() + " subdivisies. Noem ze allen.";
+                    temp_question_array.push({"Question": question_string, "Answer": local_ancestry_dict[child]["Children"], "Nr_ans": local_ancestry_dict[child]["Children"].length});
+
                 };                
-
-                if (level == 2) {
-
-                    if (Object.keys(local_ancestry_dict[child]).includes("Children")) {
-                        question_string = "Noem een voorbeeld van klasse " + child;
-                        grandchildren = local_ancestry_dict[child].Children;
-                        temp_question_array.push({"Question": question_string, "Answer": grandchildren });
-                    };
-
-                };
 
             };
         
@@ -1089,7 +830,14 @@ function checkMnemonicAnswer() {
         }
     } else {
 
-        console.log("Answer something!");
+        document.getElementById('remark-card').innerText = "Het goede antwoord is: " + correct_answer + ". We zullen deze vraag later nogmaals herhalen.";
+
+        let local_question_array = question_array;
+        local_question_array.splice(intervalIndex(current_index, 4, local_question_array), 0, {"Question": ("Dit is de eerste herhaling: " + question_array[current_index].Question), "Answer": question_array[current_index].Answer});
+        local_question_array.splice(intervalIndex(current_index, 12, local_question_array), 0, {"Question": ("Dit is de tweede herhaling: " + question_array[current_index].Question), "Answer": question_array[current_index].Answer});
+
+        question_array = local_question_array;
+        console.log(question_array);
 
     }
 }
@@ -1128,8 +876,8 @@ function inBetween(display_text) {
     
     /* Setting all new text */
 
-    document.getElementById('remark-card').innerText = "Good job!" 
-    document.getElementById('question-description').innerText = "Het volledige antwoord was: " + display_text.join(", ")
+    document.getElementById('remark-card').innerText = "Super goed gedaan!" 
+    document.getElementById('question-description').innerText = "Goed gedaan! Ter herhaling: het volledige antwoord was: " + display_text.join(", ")
     
     document.getElementById('question-input-card').innerHTML = 
             
